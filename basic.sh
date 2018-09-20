@@ -53,7 +53,9 @@ sudo apt-get update
 sudo apt-get install cuda-drivers
 sudo apt-get install cuda=9.2.148-1
 # Register & install CuDNN library
-sudo dpkg -i libcudnn7_7.2.1.38-1+cuda9.2_amd64.deb
+CUDNN_REPO_PKG=libcudnn7_7.2.1.38-1+cuda9.2_amd64.deb
+wget https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1604/x86_64/${CUDNN_REPO_PKG}
+sudo dpkg -i ${CUDNN_REPO_PKG}
 sudo apt install nvidia-cuda-toolkit
 sudo apt-get update
 sudo apt-get install -y python3-pip
