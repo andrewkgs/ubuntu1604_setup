@@ -1,2 +1,2 @@
-# ubuntu1604_install
-My personal scripts for installing Ubuntu16.04.
+# ubuntu1604_setup
+My personal scripts for setting up Ubuntu16.04.
