@@ -4,6 +4,14 @@
 
 ########## Basic Tools ##########
 
+sudo apt-get install git-core
+# git config --global user.name "AndrewKuo"
+# git config --global user.email "andrewkuogs@gmail.com"
+# git config --global.ui auto
+# git config --global color.branch auto
+# git config --global color.status auto
+
+
 sudo apt-get install vim
 ##############################################
 # source: https://github.com/leomao/pika-vim #
@@ -31,14 +39,6 @@ sudo apt-get install tmux
 sudo apt-get install openssh-server
 # vim /etc/ssh/sshd_config
 # sudo service ssh restart
-
-
-sudo apt-get install git-core
-# git config --global user.name "AndrewKuo"
-# git config --global user.email "andrewkuogs@gmail.com"
-# git config --global.ui auto
-# git config --global color.branch auto
-# git config --global color.status auto
 
 
 ############ CUDA Setup ############
