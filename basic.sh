@@ -44,16 +44,16 @@ sudo apt-get install git-core
 ############ CUDA Setup ############
 
 # Download specified CUDA driver package
-CUDA_REPO_PKG=cuda-repo-ubuntu1604_9.2.148-1_amd64.deb
+CUDA_REPO_PKG=cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
 sudo wget -O ${CUDA_REPO_PKG} http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/${CUDA_REPO_PKG} 
 # Register driver package on your machine
 sudo dpkg -i ${CUDA_REPO_PKG}
 sudo apt-get update
 # install CUDA driver
 sudo apt-get install cuda-drivers
-sudo apt-get install cuda=9.2.148-1
+sudo apt-get install cuda=9.0.176-1
 # Register & install CuDNN library
-CUDNN_REPO_PKG=libcudnn7_7.2.1.38-1+cuda9.2_amd64.deb
+CUDNN_REPO_PKG=libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb
 wget https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1604/x86_64/${CUDNN_REPO_PKG}
 sudo dpkg -i ${CUDNN_REPO_PKG}
 sudo apt install nvidia-cuda-toolkit
@@ -67,7 +67,7 @@ sudo pip3 install --upgrade pip
 
 # deep learning framework
 sudo pip3 install tensorflow-gpu
-sudo pip3 install http://download.pytorch.org/whl/cu92/torch-0.4.1-cp35-cp35m-linux_x86_64.whl 
+sudo pip3 install http://download.pytorch.org/whl/cu90/torch-0.4.1-cp35-cp35m-linux_x86_64.whl 
 sudo pip3 install torchvision
 sudo pip3 install tensorboardX
 sudo pip3 install keras
@@ -78,4 +78,3 @@ sudo pip3 install opencv-contrib-python
 sudo pip3 install jupyter
 sudo pip3 install scikit-learn
 sudo pip3 install scikit-image
-
