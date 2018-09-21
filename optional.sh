@@ -13,5 +13,5 @@ sudo apt-get -y install google-chrome-stable
 sudo apt-get install hime
 
 # Server settings
-# install wine first...
+sudo apt-get install wine
 wget -O ~/Desktop/winbox.exe http://www.mikrotik.com/download/winbox.exe
