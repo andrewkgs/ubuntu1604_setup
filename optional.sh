@@ -10,6 +10,6 @@ sudo apt-get install hime
 
 # Server settings
 # install wine first...
-wget -O ~/Desktop/winbox.exe http://www.mikrotik.com/download.winbox.exe
+wget -O ~/Desktop/winbox.exe http://www.mikrotik.com/download/winbox.exe
 
 
