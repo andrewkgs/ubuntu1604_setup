@@ -29,7 +29,7 @@ sudo apt-get install tmux
 # cd
 # git clone https://github.com/andrewkgs/.tmux.git
 # ln -s -f .tmux/.tmux.conf
-# cp .tmux/.tmux.conf.loacl .
+# cp .tmux/.tmux.conf.local .
 # sudo mv PowerlineSymbols.otf /usr/local/share/fonts
 # fc-cache -vf /usr/local/share/fonts/
 # sudo apt-get install fonts-powerline
