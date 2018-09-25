@@ -11,7 +11,9 @@ sudo apt-get -y install google-chrome-stable
 
 # Traditional Chinese input
 sudo apt-get install hime
+# setting: http://goodjack.blogspot.com/2013/08/linux-phonetic-setting.html
 
-# Server settings
+# Winbox
 sudo apt-get install wine
 wget -O ~/Desktop/winbox.exe http://www.mikrotik.com/download/winbox.exe
+# set "wine" as the default application
