@@ -74,6 +74,7 @@ sudo pip3 install keras
 
 # other pip toolkit
 sudo pip3 install pandas
+sudo pip3 install imageio
 sudo pip3 install opencv-contrib-python
 sudo pip3 install jupyter
 sudo pip3 install scikit-learn
