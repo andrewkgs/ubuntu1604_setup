@@ -10,6 +10,7 @@ sudo apt-get install git-core
 # git config --global.ui auto
 # git config --global color.branch auto
 # git config --global color.status auto
+# git config --global push.default simple
 
 
 sudo apt-get install vim
