@@ -21,6 +21,7 @@ sudo apt-get install vim
 # cd pika-vim/
 # ./deploy.py
 
+sudo apt-get install htop
 
 sudo apt-get install tmux
 ############################################
