@@ -69,7 +69,7 @@ sudo apt install virtualenv
 
 # deep learning framework
 sudo pip3 install tensorflow-gpu
-sudo pip3 install http://download.pytorch.org/whl/cu90/torch-0.4.1-cp35-cp35m-linux_x86_64.whl 
+sudo pip3 install torch
 sudo pip3 install torchvision
 sudo pip3 install tensorboardX
 sudo pip3 install keras
