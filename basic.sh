@@ -68,8 +68,8 @@ sudo apt install virtualenv
 ########## pip Module Installation ##########
 
 # deep learning framework
-sudo pip3 install tensorflow-gpu
-sudo pip3 install torch
+sudo pip3 install tensorflow-gpu==1.10.0
+sudo pip3 install torch==0.4.1
 sudo pip3 install torchvision
 sudo pip3 install tensorboardX
 sudo pip3 install keras
