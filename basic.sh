@@ -43,7 +43,7 @@ sudo apt-get install openssh-server
 # sudo service ssh restart
 
 
-############ CUDA Setup ############
+############ Python & CUDA Setup ############
 
 # Download specified CUDA driver package
 CUDA_REPO_PKG=cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
@@ -55,7 +55,7 @@ sudo apt-get update
 sudo apt-get install cuda-drivers
 sudo apt-get install cuda=9.0.176-1
 # Register & install CuDNN library
-CUDNN_REPO_PKG=libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb
+CUDNN_REPO_PKG=libcudnn7_7.1.4.18-1+cuda9.0_amd64.deb
 wget https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1604/x86_64/${CUDNN_REPO_PKG}
 sudo dpkg -i ${CUDNN_REPO_PKG}
 sudo apt install nvidia-cuda-toolkit
@@ -68,7 +68,7 @@ sudo apt install virtualenv
 ########## pip Module Installation ##########
 
 # deep learning framework
-sudo pip3 install tensorflow-gpu==1.10.0
+sudo pip3 install tensorflow-gpu
 sudo pip3 install torch==0.4.1
 sudo pip3 install torchvision
 sudo pip3 install tensorboardX
@@ -81,3 +81,6 @@ sudo pip3 install opencv-contrib-python
 sudo pip3 install jupyter
 sudo pip3 install scikit-learn
 sudo pip3 install scikit-image
+
+########## Other Toolkits ##########
+sudo apt-get install parallel
