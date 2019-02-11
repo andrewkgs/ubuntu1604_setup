@@ -4,6 +4,9 @@
 
 ########## Basic Tools ##########
 
+sudo apt-get install htop
+sudo apt-get install parallel
+
 sudo apt-get install git-core
 # git config --global user.name "AndrewKuo"
 # git config --global user.email "andrewkuogs@gmail.com"
@@ -11,7 +14,6 @@ sudo apt-get install git-core
 # git config --global color.branch auto
 # git config --global color.status auto
 # git config --global push.default simple
-
 
 sudo apt-get install vim
 ##############################################
@@ -21,8 +23,6 @@ sudo apt-get install vim
 # git clone --depth=1 https://github.com/andrewkgs/pika-vim.git
 # cd pika-vim/
 # ./deploy.py
-
-sudo apt-get install htop
 
 sudo apt-get install tmux
 ############################################
@@ -36,7 +36,6 @@ sudo apt-get install tmux
 # fc-cache -vf /usr/local/share/fonts/
 # sudo apt-get install fonts-powerline
 # source ~/.tmux.conf.local
-
 
 sudo apt-get install openssh-server
 # vim /etc/ssh/sshd_config
@@ -81,6 +80,3 @@ sudo pip3 install opencv-contrib-python
 sudo pip3 install jupyter
 sudo pip3 install scikit-learn
 sudo pip3 install scikit-image
-
-########## Other Toolkits ##########
-sudo apt-get install parallel
