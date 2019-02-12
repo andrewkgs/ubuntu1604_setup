@@ -5,6 +5,7 @@
 ########## Basic Tools ##########
 
 sudo apt-get install htop
+sudo apt-get install dos2unix
 sudo apt-get install parallel
 
 sudo apt-get install git-core
