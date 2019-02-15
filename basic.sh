@@ -63,7 +63,7 @@ sudo apt-get update
 sudo apt-get install -y python3-pip
 # upgrade pip
 sudo pip3 install --upgrade pip
-sudo apt install virtualenv
+sudo pip3 install virtualenv
 
 ########## pip Module Installation ##########
 
