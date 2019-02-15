@@ -47,7 +47,7 @@ sudo apt-get install openssh-server
 
 # Download specified CUDA driver package
 CUDA_REPO_PKG=cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
-sudo wget -O ${CUDA_REPO_PKG} http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/${CUDA_REPO_PKG} 
+sudo wget -O ${CUDA_REPO_PKG} https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/${CUDA_REPO_PKG} 
 # Register driver package on your machine
 sudo dpkg -i ${CUDA_REPO_PKG}
 sudo apt-get update
