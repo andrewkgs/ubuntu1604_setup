@@ -36,7 +36,6 @@ sudo apt-get install tmux
 # sudo mv PowerlineSymbols.otf /usr/local/share/fonts
 # fc-cache -vf /usr/local/share/fonts/
 # sudo apt-get install fonts-powerline
-# source ~/.tmux.conf.local
 
 sudo apt-get install openssh-server
 # vim /etc/ssh/sshd_config
