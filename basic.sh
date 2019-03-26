@@ -11,7 +11,7 @@ sudo apt-get install parallel
 sudo apt-get install git-core
 # git config --global user.name "AndrewKuo"
 # git config --global user.email "andrewkuogs@gmail.com"
-# git config --global.ui auto
+# git config --global color.ui auto
 # git config --global color.branch auto
 # git config --global color.status auto
 # git config --global push.default simple
