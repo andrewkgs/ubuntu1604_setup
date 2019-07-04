@@ -21,8 +21,8 @@ sudo apt-get install vim
 # source: https://github.com/leomao/pika-vim #
 ##############################################
 # cd
-# git clone --depth=1 https://github.com/andrewkgs/pika-vim.git
-# cd pika-vim/
+# git clone --depth=1 https://github.com/andrewkgs/.pika-vim.git
+# cd .pika-vim/
 # ./deploy.py
 
 sudo apt-get install tmux
